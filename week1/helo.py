@@ -19,3 +19,7 @@ x = "python3 "
 y = "is "
 z = "awesome "
 print(x+y+z)
+
+
+def myfun():
+    print("my function value is ", myfun + y)
