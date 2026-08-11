@@ -20,3 +20,31 @@ Fruit[0] = "kawki"
 print(Fruit)
 Fruit[1:3] = ["pinnple", "game" ]
 print(Fruit)
+Fruit.insert(2, "victor")
+print(Fruit)
+Object = ['mopping', 'tool', 'stack', 2, 30, 'code', 'gun']
+print(Object)
+Object.append('orange')
+print(Object)
+Fruit.extend(Object)
+print(Fruit)
+Fruit.remove('victor')
+print(Fruit)
+Fruit.pop(1)
+print(Fruit)
+
+thisList = ['victor', 'sarah', 'solo', 20, 'house']
+print(thisList)
+del thisList[1]
+print(thisList)
+
+for hel in thisList:
+    print(hel)
+
+for i in range(len(thisList)):
+    print(thisList[i])
+
+x = 0
+while x < len(thisList):
+    print(thisList[x])
+x = x +1
