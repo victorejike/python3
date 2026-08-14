@@ -19,4 +19,4 @@ def main():
         print("\nStopped")
         sever.server_close()
 if __name__ == "__main__":
-    main(/)
+    main()
