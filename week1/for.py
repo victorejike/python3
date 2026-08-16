@@ -8,3 +8,9 @@ for x in fruits:
     if "a" in x:
         newlist.append(x)
 print(newlist)
+
+newlist = ["apple", "mango", "cashew", "johe"]
+new = [x for x in newlist if x != True]
+print(new)
+newlist = [new.upper() for new in newlist ]
+print(newlist)
