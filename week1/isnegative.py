@@ -1,0 +1,40 @@
+#isnegative
+#Instructions
+#Write a function that prints 'T' (true) on a single line if the int passed as parameter is negative, otherwise it prints 'F' (false).
+
+#Expected function
+#func IsNegative(nb int) {
+
+ #   }
+  #  Usage
+   # Here is a possible program to test your function :
+
+    #package main
+
+   # import "piscine"
+
+   # func main() {
+    #        piscine.IsNegative(1)
+     #           piscine.IsNegative(0)
+      #              piscine.IsNegative(-1)
+       #             }
+        #            And its output :
+#
+ #                   $ go run .
+  #                  F
+   #                 F
+    #                T
+     #               $
+    #}
+#}
+
+
+def is_negative(nd):
+    if nd < 0:
+        print("T")
+    else:
+        print("F")
+
+is_negative(1)
+is_negative(0)
+is_negative(-1)
