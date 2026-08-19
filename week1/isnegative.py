@@ -31,9 +31,9 @@
 
 def is_negative(nd):
     if nd < 0:
-        print("T")
+        print("  T")
     else:
-        print("F")
+        print("  F")
 
 is_negative(1)
 is_negative(0)
