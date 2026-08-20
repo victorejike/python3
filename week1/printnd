@@ -1,0 +1,12 @@
+
+
+
+def isnegative (nd):
+	if nd < 0:
+		print(" F")
+	else:
+		print(" T")
+
+isnegative(0)
+isnegative(1)
+isnegative(-1)
