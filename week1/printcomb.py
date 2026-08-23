@@ -28,9 +28,10 @@
 
 def print_comb():
     for first in range(10):
-            for second in range(first + 1, 10):
-                        for third in range(second + 1, 10):
-                                        print(f"{first}{second}{third}", end="")
-
-print()
+        for second in range(first + 1, 10):
+            for third in range(second + 1, 10):
+                print(f"{first}{second}{third}", end="")
+            if not (first == 9 and second == 8 and third == 7):
+                     print(", ", end="")
+                     print()
 print_comb()
