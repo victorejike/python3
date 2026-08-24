@@ -31,7 +31,6 @@ def print_comb():
         for second in range(first + 1, 10):
             for third in range(second + 1, 10):
                 print(f"{first}{second}{third}", end="")
-            if not (first == 9 and second == 8 and third == 7):
+            if not (first == 7 and second == 8 and third == 9):
                      print(", ", end="")
-                     print()
 print_comb()
