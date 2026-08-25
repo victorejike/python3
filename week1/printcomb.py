@@ -26,11 +26,19 @@
 
 #987 should not be shown because the first digit is not less than the second.
 
+#def print_comb():
+    #for first in range(10):
+       # for second in range(first + 1, 10):
+       #     for third in range(second + 1, 10):
+      #          print(f"{first}{second}{third}", end="")
+     #       if not (first == 7 and second == 8 and third == 9):
+     #                print(", ", end="")
+#print_comb()
 def print_comb():
     for first in range(10):
-        for second in range(first + 1, 10):
-            for third in range(second + 1, 10):
-                print(f"{first}{second}{third}", end="")
-            if not (first == 7 and second == 8 and third == 9):
-                     print(", ", end="")
-print_comb()
+            for second in range(first + 1, 10):
+                 for third in range(second + 1, 10):
+                     print(f"{first}{second}{third}", end="")
+                             if not (first == 7 and second == 8 and third == 9):
+                                  print(", ", end="")
+ print_comb()
