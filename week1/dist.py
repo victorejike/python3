@@ -3,7 +3,7 @@ def dictionary ():
         "name": "victor",
         "class": "ai"
     }
-    print(thisdist)
+    print(thisdist["name"])
 
 dictionary()
 
