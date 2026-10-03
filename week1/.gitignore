@@ -1,0 +1,5 @@
+# Ignore the virtual environment folder containing all downloaded libraries
+../.venv/
+
+# Ignore Python compiled cache files
+**/__pycache__/
