@@ -18,3 +18,7 @@ word = ["victor", "Ejike", "nmesomma", "Khalifa", "james"]
 print(word)
 word.sort(key=str.capitalize)
 print(word)
+print("==========================")
+
+
+thislist = ["orang", "apple", "mango"]
