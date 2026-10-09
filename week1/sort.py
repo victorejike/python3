@@ -22,3 +22,12 @@ print("==========================")
 
 
 thislist = ["orang", "apple", "mango"]
+thislist.sort()
+thislist.append("banana")
+thislist.insert(1, "juice")
+print(thislist)
+
+#==========================
+print("==========================================")
+thislist = word.copy()
+print(thislist)
