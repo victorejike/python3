@@ -13,10 +13,11 @@ print(colors[0])
 #change the second item to yellow
 colors[1] = "yellow"
 print(colors)
+#
 
 #add "purpule" to the end of the  list using append()
 colors.append("purpule")
-print(colors)
+print(color)
 
 #remove red from the list using remove()
 colors.remove('red')
