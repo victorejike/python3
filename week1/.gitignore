@@ -1,5 +1,9 @@
-# Ignore the virtual environment folder containing all downloaded libraries
-../.venv/
+# Ignore the main virtual environment folder
+.venv/
 
-# Ignore Python compiled cache files
+# Ignore the environment folder inside week1
+week1/mylearn/
+
+# Ignore Python cache files everywhere
 **/__pycache__/
+*.ipynb_checkpoints/
