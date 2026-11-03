@@ -1,10 +1,12 @@
-thisdist = {
-    "model": "toyota",
-    "house" : " duplex",
-    "user": "victor",
-    "password": "victor1"
-    
+car = {
+    "brand" : ["ford", "toyota", "kia"],
+    "model" : ["avenges", "hellux", "sonata"],
+    "year" : ["2026", "2018"]
 }
 
-if "model" in thisdist:
-    print(" yes' model' is one of the key in the thisdict dictionary")
+print(len(car["year"]))
+x = car.get("model")
+print(x)
+print("===================================")
+y = car.keys()
+print(y)
